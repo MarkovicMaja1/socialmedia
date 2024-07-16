@@ -47,6 +47,7 @@ const Sidebar = () => {
 				</Flex>
 
 				{/* LOGOUT */}
+				<Link to={"/"} as={RouterLink}>
 				<Tooltip
 					hasArrow
 					label={"Logout"}
@@ -66,8 +67,7 @@ const Sidebar = () => {
 						mt={"auto"}
 						justifyContent={{ base: "center", md: "flex-start" }}
 					>
-						<BiLogOut size={25} />
-                        <Link to={"/"} as={RouterLink}>
+						<BiLogOut size={25} /> 
                             <Button
                                 display={{ base: "none", md: "block" }}
                                 variant={"ghost"}
@@ -75,10 +75,10 @@ const Sidebar = () => {
                                 isLoading={isLoggingOut}
                             >
                                 Logout
-                            </Button>
-                        </Link>
+                            </Button> 
 					</Flex>
 				</Tooltip>
+				</Link>
 			</Flex>
 		</Box>
 	);
