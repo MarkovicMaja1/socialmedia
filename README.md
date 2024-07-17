@@ -2,7 +2,7 @@
 
 Social Media App is a full-featured social networking platform currently under development. The app aims to connect people and facilitate communication through posts, comments, and more. The application is being built using React for the frontend and Firebase for backend services.
 
-## Features (Planned)
+## Features
 
 - User authentication and profiles
 - Post creation and sharing
