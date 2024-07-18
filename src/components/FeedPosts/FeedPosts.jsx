@@ -27,7 +27,7 @@ const FeedPosts = () => {
             {!isLoading && posts.length === 0 && (
                 <>
                     <Text fontSize="md" color="white">
-                        No posts yet.
+                       Your friends have no posts.
                     </Text>
                 </>
             )}

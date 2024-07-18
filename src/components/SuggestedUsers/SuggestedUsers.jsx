@@ -26,7 +26,7 @@ const SuggestedUsers = () => {
 
             <Box fontSize={12} color="gray.500" mt={5} alignSelf="start">
                 © 2024 Built By{" "}
-                <Link href="https://github.com/MyCode014" target="_blank" color="blue.500" fontSize={14}>
+                <Link href="https://github.com/MarkovicMaja1" target="_blank" color="blue.500" fontSize={14}>
                     Maja
                 </Link>
             </Box>
