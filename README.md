@@ -1,4 +1,9 @@
-# Social Media App *Work still in Progress"
+# Social Media App
+https://socialmedia-git-main-majas-projects-7ff0265a.vercel.app
+
+You can test the application by registering your own user or by using the existing one:
+Email: alex123@gmail.com
+Password: alex123
 
 Social Media App is a full-featured social networking platform currently under development. The app aims to connect people and facilitate communication through posts, comments, and more. The application is being built using React for the frontend and Firebase for backend services.
 
