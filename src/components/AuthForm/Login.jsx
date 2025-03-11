@@ -32,7 +32,7 @@ const Login = () => {
             {error && (
                 <Alert status="error" fontSize={13} p={2} borderRadius={4} mt={2}>
                     <AlertIcon fontSize={12} />
-                    {error.message}
+                    { "Invalid email or password. Please try again."}
                 </Alert>
             )}
 
